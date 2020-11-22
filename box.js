@@ -11,7 +11,7 @@ class Box  {
     display(){
         var position = this.body.position;
         rectMode(CENTER);
-        fill("turquoise");
+        fill("magenta");
         rect(position.x, position.y, this.width, this.height);
     }
   }
