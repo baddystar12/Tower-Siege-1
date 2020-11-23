@@ -1,7 +1,7 @@
 class Box3 {
     constructor(x, y, width, height){
       var box3_options ={
-          isStatic:true
+          isStatic:false
       }
       this.body = Bodies.rectangle(x,y,width,height,box3_options);
       this.width = width;
